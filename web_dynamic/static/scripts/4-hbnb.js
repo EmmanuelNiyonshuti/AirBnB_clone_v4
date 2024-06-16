@@ -38,7 +38,6 @@ $(function () {
             obj[id] = name
         });
         const PostData = JSON.stringify({amenities: Object.values(obj)});
-        console.log(PostData)
         $.ajax({
             type: "POST",
             url: "http://localhost:5001/api/v1/places_search/",

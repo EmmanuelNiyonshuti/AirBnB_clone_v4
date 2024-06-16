@@ -49,8 +49,23 @@ button:hover {
 .amenities {
     height: 100%;
     width: 25%;
+    font-size: 16px;
+    border-bottom: solid #DDDDDD 1px;
 }
+.amenities ul li {
+    list-style: none;
+}
+.reviews {
+  margin-top: 40px;  
+}
+.reviews ul li {
+    list-style: none;
 
+}
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: solid #DDDDDD 1px;
+}
 .popover {
     visibility: hidden;
     width: 100%;
@@ -86,9 +101,14 @@ button:hover {
     padding-bottom: 10px;
     padding-left: 10px;
 }
+/* .popover ul li input{
+
+} */
+
 .popover ul li{
     padding: 4px;
     padding-left: 10px;
+
 }
 
 .popover ul h2{
